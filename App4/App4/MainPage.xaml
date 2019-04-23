@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App4"
+             x:Class="App4.MainPage">
+
+    <StackLayout>
+
+        <Button x:Name="Button1" Text="Aluno"
+                HorizontalOptions="Center"
+                Clicked="OnButtonClicked1" />
+
+        <Button x:Name="Button2" Text="Período"
+                HorizontalOptions="Center"
+                Clicked="OnButtonClicked2" />
+
+        <Button x:Name="Button3" Text="Matrícula"
+                HorizontalOptions="Center"
+                Clicked="OnButtonClicked3" />
+
+    </StackLayout>
+
+</ContentPage>
